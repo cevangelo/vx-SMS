@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_theme_state"
+          android:icon="@drawable/day_mode_icon3"
+          android:title="Day/Night Mode"
+          app:showAsAction="always" />
+    <item android:id="@+id/action_refresh_wu"
+          android:icon="@drawable/ic_menu_refresh"
+          android:title="Refresh WU"
+          app:showAsAction="always" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_send_wu"
+          android:icon="@drawable/ic_menu_send2"
+          android:title="Send Refresh"
+          app:showAsAction="always" />
+    <item android:id="@+id/action_new_thread"
+          android:icon="@drawable/ic_menu_btn_add"
+          android:title="new_thread"
+          app:showAsAction="always"/>
+</menu>
